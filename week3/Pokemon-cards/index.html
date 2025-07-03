@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon cards!</title>
+    <style>
+        body{
+            font-family:sans-serif; text-align:center;background: #f4f4f4;
+        }
+        .card-container{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            gap:16px;
+
+        }
+        .card{
+            background: white;
+            width: 150px;
+            border-radius: 10px;
+            padding:10px;
+            box-shadow: black;
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>the pokemon viewer</h1>
+    <input type="number" id="num" placeholder="enter number of cards"/>
+    <select id ="type">
+        <option value="fire">fire</option>
+    <option value="water">water</option>
+<option value="grass">grass</option>
+<option value="electric">electric</option>
+<option value="bug">bug</option>
+<option value="normal">normal</option>
+<option value ="psychic">psychic</option>
+<option value="fighting">fighting</option>
+<option value="ghost">ghost</option>    
+<button onclick="loadPokemon()">loadPokemon</button>
+</select>
+ <button onclick="loadPokemon()">Load Pokémon</button>
+   <div class="card-container" id="cards"></div>
+</body>
+<script src="script.js"></script>
+
+</html>

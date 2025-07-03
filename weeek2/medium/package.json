@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "node": "^22.16.0"
+  },
+  "name": "medium",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node countvowel.js, node palindrome.js, node times.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
